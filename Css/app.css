@@ -1,0 +1,127 @@
+ body
+ {
+	 background-image:url("https://www.wallpapers13.com/wp-content/uploads/2016/01/Background-beautiful-nature-lake-blue-sky-with-white-clouds-Hd-Wallpaper-915x515.jpg");
+	 background-repeat:no-repeat;
+	 background-size: cover;
+ }
+ table,tr{
+	 border:solid 5px;
+	 border-collapse:collapse;
+	 width:100%;
+ }
+ th
+ {
+	  height:50px;
+	  background-color: #4CAF50;
+      color: white;
+	  border-collapse:collapse;
+	  border:solid 5px;
+ }
+ td
+ {
+	 height: 50px;
+     vertical-align: bottom;
+     border:solid 5px;
+	 border-collapse:collapse;
+	 font-size:35px;
+ }
+ #but
+ {
+	 border:solid 2px;
+	 height:53px;
+	 width:505px;
+	 background-color:gray;
+ }
+ #btn2
+ {
+	 background-color:green;
+	 border: solid 3px;
+	 border-radius:20px;
+	 width:120px;
+	 height:50px;
+	 font-size:26px;
+ }
+ #btn1
+ {
+	  background-color:blue;
+	 border: solid 3px;
+	 border-radius:20px;
+	 width:120px;
+	 height:50px;
+	 font-size:26px;
+ }
+ #btn3
+ {
+	  background-color:red;
+	 border: solid 3px;
+	 border-radius:20px;
+	 width:132px;
+	 height:50px;
+	 font-size:26px;
+ }
+ #btn4
+ {
+	  background-color:#FFD700;
+	 border: solid 3px;
+	 border-radius:20px;
+	 width:120px;
+	 height:50px;
+	 font-size:26px;
+ }
+ .box
+ {
+	
+	position:absolute;
+	left:50%;
+	top:30%;
+	transform: translate(-50%,-60%);
+    background-color: #F0E68C;
+	border-radius:40px;
+	padding:60px 60px;
+ }
+ #table
+ {
+	 position:absolute;
+	 left:50%;
+	 top:250%;
+	 transform: translate(-50%,-60%);
+	 
+ }
+ #tab
+ {
+	 position:absolute;
+	 left:5%;
+	 padding:20px 60px;
+ }
+ #nom
+ {
+	 height:30px;
+	 width:170px;
+	 font-size:20px;
+	 border-radius:10px;
+ }
+ #prenom
+ {
+	  height:30px;
+	 width:170px;
+	 font-size:20px;
+	 border-radius:10px;
+ }
+ #age
+ {
+	  height:30px;
+	 width:170px;
+	 font-size:20px;
+	 border-radius:10px;
+ }
+ #marie
+ {
+	  height:30px;
+	 width:170px;
+	 font-size:20px;
+	 border-radius:10px;
+ }
+ #lab
+ {
+	 font-size:40px;
+ }
