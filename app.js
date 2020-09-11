@@ -1,7 +1,7 @@
 var rIndex,
               table=document.getElementById("table");
-		        var stagiares=[{"Nom":"Rida","Prenom":"Rhnizar","Age":20,"Marié":false},
-                               {"Nom":"Azdine","Prenom":"Bakir","Age":25,"Marié":false},
+		        var stagiares=[{"Nom":"Rhnizar","Prenom":"Rida","Age":20,"Marié":false},
+                               {"Nom":"Rhnizar","Prenom":"Amire","Age":2,"Marié":false},
                                {"Nom":"kali","Prenom":"linux","Age":70,"Marié":true},
                               ]
  function Afficher()
@@ -68,3 +68,44 @@ function modifier()
       document.getElementById("age").value = "";
       document.getElementById("marie").value = "";  
  }
+ ///// styel de les proprieté
+ function over()
+ {
+     window.nom.style.width="180px";
+     window.nom.style.height="40px";
+ }
+ function out()
+{
+    window.nom.style.width="170px";
+     window.nom.style.height="30px";
+}
+function over1()
+{
+    window.prenom.style.width="180px";
+    window.prenom.style.height="40px";
+}
+function out1()
+{
+   window.prenom.style.width="170px";
+    window.prenom.style.height="30px";
+}
+function over2()
+{
+    window.age.style.width="180px";
+    window.age.style.height="40px";
+}
+function out2()
+{
+   window.age.style.width="170px";
+    window.age.style.height="30px";
+}
+function over3()
+{
+    window.marie.style.width="180px";
+    window.marie.style.height="40px";
+}
+function out3()
+{
+   window.marie.style.width="170px";
+    window.marie.style.height="30px";
+}
